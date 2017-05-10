@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #353535;
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+
+  /*margin */
+  margin: auto;
+  /*padding  */
+  padding: 10px;
+  /*border */
+
+  /*width */
+}
+
+h2 {
+  background-color: aquamarine;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 5px;
+}
+
+li {
+  display: inline;
+}
+
+h2 span {
+  font-weight: bold;
+  text-decoration: underline yellow;
+}
+
+
+
+.container {
+  width: 800px;
+  margin: 5px auto;
+}
+
+
+header {
+  border-bottom: 5px solid aquamarine;
+}

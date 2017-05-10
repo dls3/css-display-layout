@@ -26,7 +26,7 @@ h2 {
   padding: 7px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 700px;
 }
 
 ul {
@@ -53,32 +53,35 @@ h2 span {
 }
 
 main {
-  display: inline;
+  display: block;
 }
 
+
 .sandbox {
-  display: inline-block;
-  width: 1100px;
-  /*max-width: 900px;*/
+  width: 100%;
+  max-width: 700px;
   margin: auto;
-  padding-left: 235px;
+  /*padding-left: 240px;*/
 }
 
 .photo {
   width: 230px;
   margin: auto;
   display: inline-block;
+  /*height: 390px;*/
 }
 
 .picture-bar {
   background-color: #FFD92D;
-  padding-bottom: 1px;
-  margin-bottom: 0.5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 13px;
   width: 230px;
+  text-align: center;
 }
 
 p {
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 

@@ -2,28 +2,23 @@
   box-sizing: border-box;
 }
 
-
 h1 {
   background-color: #353535;
   font-size: 24px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   text-align: center;
-
-  /*margin */
   margin: auto;
-  /*padding  */
-  padding: 15px;
-  /*border */
-
-  width: 900px;
+  padding: 10px;
+  width: 825px;
 }
 
 h2 {
   background-color: aquamarine;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 7px;
+  padding: 10px;
+  padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 700px;
@@ -47,28 +42,26 @@ li {
   padding: 8px;
 }
 
-h2 span {
-  font-weight: bolder;
+h2 > span {
   text-decoration: underline yellow;
+  font-size: 16px;
+  font-weight: bolder:
 }
 
 main {
   display: block;
 }
 
-
 .sandbox {
   width: 100%;
   max-width: 700px;
   margin: auto;
-  /*padding-left: 240px;*/
 }
 
 .photo {
   width: 230px;
   margin: auto;
   display: inline-block;
-  /*height: 390px;*/
 }
 
 .picture-bar {
@@ -97,8 +90,7 @@ footer {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   text-align: center;
-  width: 875px;
-  padding: 8px;
+  width: 825px;
+  padding: 15px;
   margin: auto;
-  /*margin: 0;*/
 }
